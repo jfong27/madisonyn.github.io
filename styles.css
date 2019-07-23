@@ -1,0 +1,108 @@
+body {
+  margin:0;
+  background-color: white;
+  color: black;
+  font-family: 'Ramabhadra', sans-serif;
+}
+
+nav {
+  background-color: white;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  font-family: 'Ramabhadra', sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  background: none;
+}
+
+nav ul li {
+  color: #cbb2ea;
+}
+
+nav ul li a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: .5rem 1rem ;
+  text-decoration: none;
+  font-size: 17px;
+  color: #cbb2ea;
+}
+
+nav a:hover {
+  color:rgb(19, 148, 16);
+  text-decoration: underline;
+}
+
+li.locationmarker {
+  background: none;
+  color:#47cc68;
+}
+
+h1 {
+  color: #436d4c;
+  padding-left: 1rem;
+  font-size: 75px;
+  font-family: 'Ramabhadra', sans-serif;
+}
+
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #cbb2ea;
+}
+
+img {
+  max-width: 100%;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+.fas {
+  font-size: 7rem;
+  color: #cbb2ea;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.column {
+  flex: 20%;
+  max-width: 24%;
+  padding: 6px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+section {
+  padding-bottom: 2rem;
+}
+
+footer {
+  margin-bottom: 0;
+  background-color: #af83c4;
+  color: white;
+  padding-left: .5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
